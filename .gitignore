@@ -1,0 +1,4 @@
+.*
+!.gitignore
+Pod-Weaver-PluginBundle-SCHWIGON-*
+Debian_CPANTS.txt
