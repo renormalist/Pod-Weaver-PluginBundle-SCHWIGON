@@ -4,7 +4,7 @@ use warnings;
 package Pod::Weaver::PluginBundle::SCHWIGON;
 # ABSTRACT: Document your modules like SCHWIGON does
 
-# (well actuall like FLORA - as it is shamelessly stolen)
+# (well actually like FLORA - as it is shamelessly stolen)
 
 use Pod::Weaver::Config::Assembler;
 
