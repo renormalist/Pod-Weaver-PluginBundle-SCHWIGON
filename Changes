@@ -1,4 +1,6 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.002     2012-04-04 13:03:18 Europe/Berlin
         - initial plugin bundle roughly based on FLORA
