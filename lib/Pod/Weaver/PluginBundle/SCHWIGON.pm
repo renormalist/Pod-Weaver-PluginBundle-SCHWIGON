@@ -61,7 +61,7 @@ This plugin bundle is equivalent to the following weaver.ini file:
   [-Transformer]
   transformer = List
 
-  [-Encoding]
+  [-SingleEncoding]
 
 =begin Pod::Coverage
 
@@ -93,8 +93,8 @@ sub mvp_bundle_config {
         [ '@SCHWIGON/Authors',   _exp('Authors'),      {} ],
         [ '@SCHWIGON/Legal',     _exp('Legal'),        {} ],
 
-        [ '@SCHWIGON/List',      _exp('-Transformer'), { transformer => 'List' } ],
-        [ '@SCHWIGON/Encoding',  _exp('-Encoding'),    {} ],
+        [ '@SCHWIGON/List',           _exp('-Transformer'),    { transformer => 'List' } ],
+        [ '@SCHWIGON/SingleEncoding', _exp('-SingleEncoding'), {} ],
     );
 }
 
